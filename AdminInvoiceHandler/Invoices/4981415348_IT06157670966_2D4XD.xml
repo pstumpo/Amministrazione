@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+      <p:FatturaElettronica versione="FPR12" xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+        <FatturaElettronicaHeader>
+          <DatiTrasmissione>
+            <IdTrasmittente>
+              <IdPaese>IT</IdPaese>
+              <IdCodice>06157670966</IdCodice>
+            </IdTrasmittente>
+            <ProgressivoInvio>00001</ProgressivoInvio>
+            <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+            <CodiceDestinatario>T04ZHR3</CodiceDestinatario>
+            <PECDestinatario>amministrazione@s2e-mail.com</PECDestinatario>
+          </DatiTrasmissione>
+          <CedentePrestatore>
+            <DatiAnagrafici>
+              <IdFiscaleIVA>
+                <IdPaese>IT</IdPaese>
+                <IdCodice>06157670966</IdCodice>
+              </IdFiscaleIVA>
+              <Anagrafica>
+                <Denominazione>OVH SRL</Denominazione>
+              </Anagrafica>
+              <RegimeFiscale>RF01</RegimeFiscale>
+            </DatiAnagrafici>
+            <Sede>
+              <Indirizzo>Via Carlo Imbonati, 18</Indirizzo>
+              <CAP>20159</CAP>
+              <Comune>MILANO</Comune>
+              <Provincia>MI</Provincia>
+              <Nazione>IT</Nazione>
+            </Sede>
+          </CedentePrestatore>
+          <CessionarioCommittente>
+            <DatiAnagrafici>
+              <IdFiscaleIVA>
+                <IdPaese>IT</IdPaese>
+                <IdCodice>03157620133</IdCodice>
+              </IdFiscaleIVA>
+              <Anagrafica>
+                <Denominazione>S2E SPRINT S.R.L.</Denominazione>
+              </Anagrafica>
+            </DatiAnagrafici>
+            <Sede>
+              <Indirizzo>VIA PALMANOVA 67</Indirizzo>
+              <CAP>20132</CAP>
+              <Comune>MILANO</Comune>
+              <Provincia>MI</Provincia>
+              <Nazione>IT</Nazione>
+            </Sede>
+          </CessionarioCommittente>
+        </FatturaElettronicaHeader>
+        <FatturaElettronicaBody>
+          <DatiGenerali>
+            <DatiGeneraliDocumento>
+              <TipoDocumento>TD01</TipoDocumento>
+              <Divisa>EUR</Divisa>
+              <Data>2021-05-01</Data>
+              <Numero>IT1478659</Numero>
+              <ImportoTotaleDocumento>257.16</ImportoTotaleDocumento>
+            </DatiGeneraliDocumento>
+          </DatiGenerali>
+          <DatiBeniServizi>
+            <DettaglioLinee>
+              <NumeroLinea>1</NumeroLinea>
+              <Descrizione>2Gbps unmetered private bandwidth rental for 1 month (only applicable 12 time)</Descrizione>
+              <Quantita>1.00</Quantita>
+              <PrezzoUnitario>0.00</PrezzoUnitario>
+              <PrezzoTotale>0.00</PrezzoTotale>
+              <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+              <NumeroLinea>2</NumeroLinea>
+              <Descrizione>100Mbps unmetered private bandwidth rental   from 01/05/21 to 01/06/21</Descrizione>
+              <Quantita>1.00</Quantita>
+              <PrezzoUnitario>0.00</PrezzoUnitario>
+              <PrezzoTotale>0.00</PrezzoTotale>
+              <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+              <NumeroLinea>3</NumeroLinea>
+              <Descrizione>64GB DDR4 ECC 2666MHz rental   1 month</Descrizione>
+              <Quantita>1.00</Quantita>
+              <PrezzoUnitario>14.25</PrezzoUnitario>
+              <PrezzoTotale>14.25</PrezzoTotale>
+              <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+              <NumeroLinea>4</NumeroLinea>
+              <Descrizione>ADVANCE 2 rental   from 01/05/21 to 01/06/21</Descrizione>
+              <Quantita>1.00</Quantita>
+              <PrezzoUnitario>68.79</PrezzoUnitario>
+              <PrezzoTotale>68.79</PrezzoTotale>
+              <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+              <NumeroLinea>5</NumeroLinea>
+              <Descrizione>Acknowledgement of agora estimate</Descrizione>
+              <Quantita>1.00</Quantita>
+              <PrezzoUnitario>0.00</PrezzoUnitario>
+              <PrezzoTotale>0.00</PrezzoTotale>
+              <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+              <NumeroLinea>6</NumeroLinea>
+              <Descrizione>2x HDD SATA 4TB Enterprise Class Soft RAID rental   from 01/05/21 to 01/06/21</Descrizione>
+              <Quantita>1.00</Quantita>
+              <PrezzoUnitario>0.00</PrezzoUnitario>
+              <PrezzoTotale>0.00</PrezzoTotale>
+              <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+              <NumeroLinea>7</NumeroLinea>
+              <Descrizione>Acknowledgement of agora estimate</Descrizione>
+              <Quantita>1.00</Quantita>
+              <PrezzoUnitario>0.00</PrezzoUnitario>
+              <PrezzoTotale>0.00</PrezzoTotale>
+              <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+              <NumeroLinea>8</NumeroLinea>
+              <Descrizione>INFRA 2 LE rental   1 month</Descrizione>
+              <Quantita>1.00</Quantita>
+              <PrezzoUnitario>113.99</PrezzoUnitario>
+              <PrezzoTotale>113.99</PrezzoTotale>
+              <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+              <NumeroLinea>9</NumeroLinea>
+              <Descrizione>3x HDD SATA 4TB Datacenter Class Soft RAID rental   1 month</Descrizione>
+              <Quantita>1.00</Quantita>
+              <PrezzoUnitario>0.00</PrezzoUnitario>
+              <PrezzoTotale>0.00</PrezzoTotale>
+              <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+              <NumeroLinea>10</NumeroLinea>
+              <Descrizione>1Gbps unmetered public bandwidth rental   1 months</Descrizione>
+              <Quantita>1.00</Quantita>
+              <PrezzoUnitario>0.00</PrezzoUnitario>
+              <PrezzoTotale>0.00</PrezzoTotale>
+              <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+              <NumeroLinea>11</NumeroLinea>
+              <Descrizione>64GB DDR4 ECC 2666MHz rental   from 01/05/21 to 01/06/21</Descrizione>
+              <Quantita>1.00</Quantita>
+              <PrezzoUnitario>13.76</PrezzoUnitario>
+              <PrezzoTotale>13.76</PrezzoTotale>
+              <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DettaglioLinee>
+              <NumeroLinea>12</NumeroLinea>
+              <Descrizione>1Gbps unmetered public bandwidth   2Gbps burst rental for 1 month (only applicable 12 time)</Descrizione>
+              <Quantita>1.00</Quantita>
+              <PrezzoUnitario>0.00</PrezzoUnitario>
+              <PrezzoTotale>0.00</PrezzoTotale>
+              <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DatiRiepilogo>
+              <AliquotaIVA>22.00</AliquotaIVA>
+              <ImponibileImporto>210.79</ImponibileImporto>
+              <Imposta>46.37</Imposta>
+              <EsigibilitaIVA>I</EsigibilitaIVA>
+            </DatiRiepilogo>
+          </DatiBeniServizi>
+          <DatiPagamento>
+            <CondizioniPagamento>TP02</CondizioniPagamento>
+            <DettaglioPagamento>
+              <ModalitaPagamento>MP08</ModalitaPagamento>
+              <DataScadenzaPagamento>2021-05-01</DataScadenzaPagamento>
+              <ImportoPagamento>257.16</ImportoPagamento>
+            </DettaglioPagamento>
+          </DatiPagamento>
+        </FatturaElettronicaBody>
+      </p:FatturaElettronica>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:FatturaElettronica SistemaEmittente="Dolibarr" versione="FPR12" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2 fatturaordinaria_v1.2.xsd ">
+  <FatturaElettronicaHeader>
+    <DatiTrasmissione>
+      <IdTrasmittente>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>09747020965</IdCodice>
+      </IdTrasmittente>
+      <ProgressivoInvio>137</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>T04ZHR3</CodiceDestinatario>
+      <ContattiTrasmittente>
+        <Email>admin@bowmanmi.com</Email>
+      </ContattiTrasmittente>
+    </DatiTrasmissione>
+    <CedentePrestatore>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>09747020965</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>09747020965</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>Bowman S.r.l.</Denominazione>
+        </Anagrafica>
+        <RegimeFiscale>RF01</RegimeFiscale>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>Via Libero Temolo, 4</Indirizzo>
+        <CAP>20126</CAP>
+        <Comune>Milano</Comune>
+        <Provincia>MI</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+      <IscrizioneREA>
+        <Ufficio>MI</Ufficio>
+        <NumeroREA>2111389</NumeroREA>
+        <SocioUnico>SM</SocioUnico>
+        <StatoLiquidazione>LN</StatoLiquidazione>
+      </IscrizioneREA>
+    </CedentePrestatore>
+    <CessionarioCommittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>03157620133</IdCodice>
+        </IdFiscaleIVA>
+        <Anagrafica>
+          <Denominazione>S2E Sprint S.r.l.</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>Via Palmanova, 67</Indirizzo>
+        <CAP>20132</CAP>
+        <Comune>Milano</Comune>
+        <Provincia>MI</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CessionarioCommittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody>
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD01</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2021-05-10</Data>
+        <Numero>FA2105-0022</Numero>
+        <ImportoTotaleDocumento>5795.00</ImportoTotaleDocumento>
+      </DatiGeneraliDocumento>
+      <DatiOrdineAcquisto>
+        <IdDocumento>20-OA000222</IdDocumento>
+        <Data>2020-12-11</Data>
+      </DatiOrdineAcquisto>
+    </DatiGenerali>
+    <DatiBeniServizi>
+      <DettaglioLinee>
+        <NumeroLinea>1</NumeroLinea>
+        <CodiceArticolo>
+          <CodiceTipo>Codice</CodiceTipo>
+          <CodiceValore>S_EXS</CodiceValore>
+        </CodiceArticolo>
+        <Descrizione>Consulenza per scarico documenti Banca Patrimonio</Descrizione>
+        <Quantita>10.00</Quantita>
+        <PrezzoUnitario>475.00000000</PrezzoUnitario>
+        <PrezzoTotale>4750.00000000</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DatiRiepilogo>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <ImponibileImporto>4750.00</ImponibileImporto>
+        <Imposta>1045.00</Imposta>
+      </DatiRiepilogo>
+    </DatiBeniServizi>
+    <DatiPagamento>
+      <CondizioniPagamento>TP02</CondizioniPagamento>
+      <DettaglioPagamento>
+        <ModalitaPagamento>MP05</ModalitaPagamento>
+        <DataScadenzaPagamento>2021-07-31</DataScadenzaPagamento>
+        <ImportoPagamento>5795.00</ImportoPagamento>
+        <IBAN>IT33A0569601620000010380X22</IBAN>
+      </DettaglioPagamento>
+    </DatiPagamento>
+  </FatturaElettronicaBody>
+<ds:Signature Id="xmldsig-69f3ff04-628a-473e-a148-dc8809d6db5d" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2006/12/xml-c14n11"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#xmldsig-69f3ff04-628a-473e-a148-dc8809d6db5d-keyinfo">
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>P2jFA8RsvCv+5YrkKfl+KmTH5N++sq8EUY2MD7k06D4=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="xmldsig-69f3ff04-628a-473e-a148-dc8809d6db5d-ref0" URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2002/06/xmldsig-filter2"><dsig-xpath:XPath Filter="subtract" xmlns:dsig-xpath="http://www.w3.org/2002/06/xmldsig-filter2">/descendant::ds:Signature</dsig-xpath:XPath></ds:Transform>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>ZAzsG6PRM8uuVvbxWFrAXsJDzG3C4AbR7BgJHz+EnfM=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-69f3ff04-628a-473e-a148-dc8809d6db5d-signedprops">
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>ueaqjk3vTQwY+GwwpYGSH1o140ZGAzvH26h6wBGoHjA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="xmldsig-69f3ff04-628a-473e-a148-dc8809d6db5d-sigvalue">
+TLkvUlVEvXhTTQH/HNcvIfeSV7BtHilLFvYMSJCTuyXxwbK8gcw0NZxkNNiRsViKT4XeOTRyXoJW
+iEV4mQdpLM13JZxwL9f3b5ublsfXSZWkkXCNn14TfOZvzhKsaQLfsx4IoGdETXc/o+MiHYVbhGgc
+T1AuMzfOElBpD/7xDKf5rQFFdyKjEByyCPVz5+WrjNb6VMG/tkVjKpWh1jTOVVnnRpPpHedARyxa
+Uk2WqOo4GGPDBZROl+ySO1AwiPr+yWHscpxEaWR6xBanP60ekntlaEIONmaw8+lmbrRQoUowvW2g
+kXlK3gcWvu3WaWttCvWFZEn8Yk1IKD6dZkmcXA==
+</ds:SignatureValue>
+<ds:KeyInfo Id="xmldsig-69f3ff04-628a-473e-a148-dc8809d6db5d-keyinfo">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIHWDCCBkCgAwIBAgIIc7Dn2AR9cUcwDQYJKoZIhvcNAQELBQAwfTELMAkGA1UEBhMCSVQxJDAi
+BgNVBAoMG05hbWlyaWFsIFMucC5BLi8wMjA0NjU3MDQyNjEgMB4GA1UECwwXQ2VydGlmaWNhdGlv
+biBBdXRob3JpdHkxJjAkBgNVBAMMHU5hbWlyaWFsIENBIEZpcm1hIFF1YWxpZmljYXRhMB4XDTIx
+MDEyMTEwMTYwMFoXDTI0MDEyMDIzMDAwMFowgY8xCzAJBgNVBAYTAklUMRQwEgYDVQQEDAtNQVJD
+QU5URUxMSTEOMAwGA1UEKgwFTUFSQ08xHzAdBgNVBAUTFlRJTklULU1SQ01SQzcxRTI2RzcxM0gx
+GjAYBgNVBAMMEU1BUkNBTlRFTExJIE1BUkNPMR0wGwYDVQQuExRBVU1NMjAyMTAxMjE3NzQ0Nzc0
+MDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL0j5HWBoxfSbVVWFLHRiCOcvhXrb+jk
+WnFuaPFGYP4YC3XvgOiIOxAe4zZHrXdT+4je3K46DRYZPv0b8xPcW2Z6iRgAStoFa4eDU7gusPuQ
+c3PMpodiFSpNJXz/yV8Ir53DFY8HYoacAZreCwh1hS7prJuDD2dYOY2/D6vDT+IYww/k08hqFZbL
+LTCsK5sXD+ZqeGPw6IXTD4khDYfZJEN4HlHFrj1YpO+jVAE2JdVlK70LEiz7ehETxMek48e+SABO
+BAmZ2JU6Chr327dfb1OKrE/DrXLc5sntoJgTPon9W59JEVEBQdZ89pdRseWW1LqPgCKoSBZsJn9z
+sft41OUCAwEAAaOCA8cwggPDMIGcBggrBgEFBQcBAQSBjzCBjDBRBggrBgEFBQcwAoZFaHR0cHM6
+Ly9kb2NzLm5hbWlyaWFsdHNwLmNvbS9kb2N1bWVudHMvTmFtaXJpYWxDQUZpcm1hUXVhbGlmaWNh
+dGEuY3J0MDcGCCsGAQUFBzABhitodHRwOi8vb2NzcC5uYW1pcmlhbHRzcC5jb20vb2NzcC9jZXJ0
+c3RhdHVzMB0GA1UdDgQWBBR3y8EInbuk86YU5uQmbA0mBKJZ6TAfBgNVHSMEGDAWgBRj/e3mjGJH
+SM/qCUFzdhHiZGJ7EDCBzQYIKwYBBQUHAQMEgcAwgb0wCAYGBACORgEBMAsGBgQAjkYBAwIBFDAI
+BgYEAI5GAQQwEwYGBACORgEGMAkGBwQAjkYBBgEwgYQGBgQAjkYBBTB6MDsWNWh0dHBzOi8vZG9j
+cy5uYW1pcmlhbHRzcC5jb20vZG9jdW1lbnRzL1BEUy9QRFNfZW4ucGRmEwJlbjA7FjVodHRwczov
+L2RvY3MubmFtaXJpYWx0c3AuY29tL2RvY3VtZW50cy9QRFMvUERTX2l0LnBkZhMCaXQwggG4BgNV
+HSAEggGvMIIBqzAJBgcEAIvsQAECMAgGBgQAj3oBAjCCAZIGCysGAQQBgpprAQEDMIIBgTApBggr
+BgEFBQcCARYdaHR0cHM6Ly9kb2NzLm5hbWlyaWFsdHNwLmNvbS8wggFSBggrBgEFBQcCAjCCAUQe
+ggFAAEkAbAAgAHAAcgBlAHMAZQBuAHQAZQAgAGMAZQByAHQAaQBmAGkAYwBhAHQAbwAgAOgAIAB2
+AGEAbABpAGQAbwAgAHMAbwBsAG8AIABwAGUAcgAgAGYAaQByAG0AZQAgAGEAcABwAG8AcwB0AGUA
+IABjAG8AbgAgAHAAcgBvAGMAZQBkAHUAcgBhACAAYQB1AHQAbwBtAGEAdABpAGMAYQAuAC8AVABo
+AGkAcwAgAGMAZQByAHQAaQBmAGkAYwBhAHQAZQAgAG0AYQB5ACAAbwBuAGwAeQAgAGIAZQAgAHUA
+cwBlAGQAIABmAG8AcgAgAHUAbgBhAHQAdABlAG4AZABlAGQALwBhAHUAdABvAG0AYQB0AGUAZAAg
+AGQAaQBnAGkAdABhAGwAIABzAGkAZwBuAGEAdAB1AHIAZQBzAC4wRgYDVR0fBD8wPTA7oDmgN4Y1
+aHR0cDovL2NybC5uYW1pcmlhbHRzcC5jb20vRmlybWFDZXJ0YVF1YWxpZmljYXRhMS5jcmwwDgYD
+VR0PAQH/BAQDAgZAMA0GCSqGSIb3DQEBCwUAA4IBAQChFyrHiwpulsA7mLPSzf+fbTROZsZ4nNqG
+bAE86vVTygEzbr5I6G8MIDsCzUzDGPWxUBRawX/AFaKSs4H5tJpCNLO9UvCU9Az+dCCf8kMKY34g
+0+3u5KaeQEklJlcm+dx55p6Z1QuSNjxvG/6+KXW6Z68D1XTQ2fqcaLZhOhiQSQzvcLXYb0JQOKsp
+cfm4MDv6pSWpwOjLdlkmRsJVspAwIbMOkV4/vOhyAeckbMQ0m6xjePhCBAR+h64ZykZCXyLmWG6h
+4jS66LjZ2KXaf1h6xMSignreYwnPrBrGGUvao7YcN+TJfU+4n/Jur/VMUU6JMz22hCO9DmFIemDJ
+kRXT
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+<ds:Object><xades:QualifyingProperties Target="#xmldsig-69f3ff04-628a-473e-a148-dc8809d6db5d" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#"><xades:SignedProperties Id="xmldsig-69f3ff04-628a-473e-a148-dc8809d6db5d-signedprops"><xades:SignedSignatureProperties><xades:SigningTime>2021-05-10T18:20:57.715+02:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>jAu+pc/SE+Rz6a9+TWtYlcZp1geb1eSaxKzclA2fPzk=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=Namirial CA Firma Qualificata,OU=Certification Authority,O=Namirial S.p.A./02046570426,C=IT</ds:X509IssuerName><ds:X509SerialNumber>8336417825237070151</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>wC+V94r4CySaNIHKQZJK5g12Y4Z8XyL/hDeg6Mw0QTc=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=Namirial CA Firma Qualificata,OU=Certification Authority,O=Namirial S.p.A./02046570426,C=IT</ds:X509IssuerName><ds:X509SerialNumber>4708725866506655769</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object>
+</ds:Signature></p:FatturaElettronica>

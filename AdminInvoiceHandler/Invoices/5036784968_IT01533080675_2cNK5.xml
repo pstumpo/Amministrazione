@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><p:FatturaElettronica xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" versione="FPR12">
+  <FatturaElettronicaHeader>
+    <DatiTrasmissione>
+      <IdTrasmittente>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>01533080675</IdCodice>
+      </IdTrasmittente>
+      <ProgressivoInvio>000KS</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>T04ZHR3</CodiceDestinatario>
+    </DatiTrasmissione>
+    <CedentePrestatore>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>10113340151</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>07891010154</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>DATA3 INFORMATICA</Denominazione>
+        </Anagrafica>
+        <RegimeFiscale>RF01</RegimeFiscale>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>VIALE ERCOLE MARELLI 165</Indirizzo>
+        <CAP>20099</CAP>
+        <Comune>SESTO SAN GIOVANNI</Comune>
+        <Provincia>MI</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+      <Contatti>
+        <Telefono>02680815</Telefono>
+      </Contatti>
+    </CedentePrestatore>
+    <CessionarioCommittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>03157620133</IdCodice>
+        </IdFiscaleIVA>
+        <Anagrafica>
+          <Denominazione>S2E SPRINT SRL</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>VIA PALMANOVA 67</Indirizzo>
+        <CAP>20132</CAP>
+        <Comune>MILANO</Comune>
+        <Provincia>MI</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CessionarioCommittente>
+    <TerzoIntermediarioOSoggettoEmittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>01533080675</IdCodice>
+        </IdFiscaleIVA>
+        <Anagrafica>
+          <Denominazione>Alias Group S.r.l.</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+    </TerzoIntermediarioOSoggettoEmittente>
+    <SoggettoEmittente>TZ</SoggettoEmittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody>
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD01</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2021-04-30</Data>
+        <Numero>86</Numero>
+        <ImportoTotaleDocumento>7320.00</ImportoTotaleDocumento>
+        <Causale>Vendita</Causale>
+      </DatiGeneraliDocumento>
+    </DatiGenerali>
+    <DatiBeniServizi>
+      <DettaglioLinee>
+        <NumeroLinea>1</NumeroLinea>
+        <Descrizione>ATTIVITA' DI ANALISI E PROGETTAZIONE E  SVILUPPO DELL'ARCHITETTURA BIG DATA PER LA PIATTAFORMA GAIA SPESA SOSTENUTA A VALERE SUL "BANDO SI 4.0 2020"</Descrizione>
+        <Quantita>1.00000000</Quantita>
+        <PrezzoUnitario>6000.00000000</PrezzoUnitario>
+        <PrezzoTotale>6000.00000000</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DatiRiepilogo>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <ImponibileImporto>6000.00</ImponibileImporto>
+        <Imposta>1320.00</Imposta>
+        <EsigibilitaIVA>I</EsigibilitaIVA>
+        <RiferimentoNormativo>IVA 22% DPR 633/72</RiferimentoNormativo>
+      </DatiRiepilogo>
+    </DatiBeniServizi>
+    <DatiPagamento>
+      <CondizioniPagamento>TP02</CondizioniPagamento>
+      <DettaglioPagamento>
+        <ModalitaPagamento>MP05</ModalitaPagamento>
+        <DataRiferimentoTerminiPagamento>2021-04-30</DataRiferimentoTerminiPagamento>
+        <DataScadenzaPagamento>2021-07-31</DataScadenzaPagamento>
+        <ImportoPagamento>7320.00</ImportoPagamento>
+        <IstitutoFinanziario>CREDITO VALTELLINESE SEDE DI MILANO STELLINE</IstitutoFinanziario>
+        <IBAN>IT62I0521601614000000004025</IBAN>
+        <ABI>05216</ABI>
+        <CAB>01614</CAB>
+      </DettaglioPagamento>
+    </DatiPagamento>
+  </FatturaElettronicaBody>
+<ds:Signature Id="MZZMRC74L18E058G-17956a883540" xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-MZZMRC74L18E058G-17956a883540-17956a883540"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>758FlFXsmvG4uZeYfCCYrVF8tTltYddQckPZ8hJOcCA=</ds:DigestValue></ds:Reference><ds:Reference Id="Reference-MZZMRC74L18E058G-17956a883540-1" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2002/06/xmldsig-filter2"><dsig-xpath:XPath xmlns:dsig-xpath="http://www.w3.org/2002/06/xmldsig-filter2" Filter="subtract">/descendant::ds:Signature</dsig-xpath:XPath></ds:Transform><ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>xGkNMslC4pM++161wAsyOqJ5ns0iwJMARMEV10o2ypw=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue-MZZMRC74L18E058G-17956a883540">TMbAC+URI3M+6NBZm/C5dFQf9cqcT0okaMjgYDXVID9qEmSt/dwg23JQaUhV2WYRvY9LOpRwrG3dKtKf23BWmcZsg9PR1Dwvo0Ti42FXVcSFieg6cJ6aCTCvNN7rsHc3azASTqY76KecA4ltmElbnaToAuHeOrOavqdLhOwM3kWsR8Oa6ubUZ9QNLOzaeNTD/W3KSn9eUaxm6HGBjBoHjokgc7b9RuFTzuD70BNYecjFPsa/IzjZBDixO4oK4ssV9mt0fr1YOutnXROJ988AiwbGvmo08q3G4VsMjp976RNagSpeO/mU+lY+MGLOfOqnJJvp8c4O1Gx32iSeiuFlZw==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#MZZMRC74L18E058G-17956a883540"><xades:SignedProperties Id="SignedProperties-MZZMRC74L18E058G-17956a883540-17956a883540"><xades:SignedSignatureProperties><xades:SigningTime>2021-05-10T16:22:34+02:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>elibinJ7eDlO/m5hSlqp45HNrQrcYWPvbv+QqiFZ/EQ=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=Intesi Group EU Qualified Electronic Signature CA G2,OU=Qualified Trust Service Provider,O=Intesi Group S.p.A.,organizationIdentifier=VATIT-02780480964,C=IT</ds:X509IssuerName><ds:X509SerialNumber>8454043573386551134</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignatureProductionPlace><xades:City>Tortoreto</xades:City><xades:StateOrProvince>TE</xades:StateOrProvince><xades:PostalCode>64018</xades:PostalCode><xades:CountryName>Italia</xades:CountryName></xades:SignatureProductionPlace></xades:SignedSignatureProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></p:FatturaElettronica>

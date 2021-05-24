@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:FatturaElettronica versione="FPR12" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<FatturaElettronicaHeader>
+		<DatiTrasmissione>
+			<IdTrasmittente>
+				<IdPaese>IT</IdPaese>
+				<IdCodice>10209790152</IdCodice>
+			</IdTrasmittente>
+			<ProgressivoInvio>12438</ProgressivoInvio>
+			<FormatoTrasmissione>FPR12</FormatoTrasmissione>
+			<CodiceDestinatario>T04ZHR3</CodiceDestinatario>
+		</DatiTrasmissione>
+		<CedentePrestatore>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>12926771002</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>12926771002</CodiceFiscale>
+				<Anagrafica>
+					<Denominazione>ATON INFORMATICA SRL</Denominazione>
+				</Anagrafica>
+				<RegimeFiscale>RF01</RegimeFiscale>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>Via Nomentana</Indirizzo>
+				<NumeroCivico>761</NumeroCivico>
+				<CAP>00137</CAP>
+				<Comune>Roma</Comune>
+				<Provincia>RM</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+			<Contatti>
+				<Telefono>06/89275650</Telefono>
+				<Email>segreteria@atoninformatica.it</Email>
+			</Contatti>
+		</CedentePrestatore>
+		<CessionarioCommittente>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>03157620133</IdCodice>
+				</IdFiscaleIVA>
+				<Anagrafica>
+					<Denominazione>S2E Sprint Srl</Denominazione>
+				</Anagrafica>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>Via Palmanova, 67</Indirizzo>
+				<CAP>20132</CAP>
+				<Comune>MILANO</Comune>
+				<Provincia>MI</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+		</CessionarioCommittente>
+	</FatturaElettronicaHeader>
+	<FatturaElettronicaBody>
+		<DatiGenerali>
+			<DatiGeneraliDocumento>
+				<TipoDocumento>TD01</TipoDocumento>
+				<Divisa>EUR</Divisa>
+				<Data>2021-04-30</Data>
+				<Numero>455</Numero>
+				<ImportoTotaleDocumento>6097.56</ImportoTotaleDocumento>
+			</DatiGeneraliDocumento>
+			<DatiOrdineAcquisto>
+				<IdDocumento>20-OA000261</IdDocumento>
+				<Data>2020-12-31</Data>
+			</DatiOrdineAcquisto>
+		</DatiGenerali>
+		<DatiBeniServizi>
+			<DettaglioLinee>
+				<NumeroLinea>1</NumeroLinea>
+				<CodiceArticolo>
+					<CodiceTipo>AswArtFor</CodiceTipo>
+					<CodiceValore>75</CodiceValore>
+				</CodiceArticolo>
+				<Descrizione>Attività di programmazione in ambiente oracle PL/SQL</Descrizione>
+				<Quantita>1.00</Quantita>
+				<UnitaMisura>mesi</UnitaMisura>
+				<PrezzoUnitario>4998.00</PrezzoUnitario>
+				<PrezzoTotale>4998.00</PrezzoTotale>
+				<AliquotaIVA>22.00</AliquotaIVA>
+				<AltriDatiGestionali>
+					<TipoDato>AswTRiga</TipoDato>
+					<RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+				</AltriDatiGestionali>
+				<AltriDatiGestionali>
+					<TipoDato>AswConCont</TipoDato>
+					<RiferimentoTesto>06010101001</RiferimentoTesto>
+				</AltriDatiGestionali>
+				<AltriDatiGestionali>
+					<TipoDato>AswCenCost</TipoDato>
+					<RiferimentoTesto>MI1_018_001_1 RIC</RiferimentoTesto>
+				</AltriDatiGestionali>
+			</DettaglioLinee>
+			<DettaglioLinee>
+				<NumeroLinea>2</NumeroLinea>
+				<Descrizione>Aprile 2021</Descrizione>
+				<PrezzoUnitario>0.00</PrezzoUnitario>
+				<PrezzoTotale>0.00</PrezzoTotale>
+				<AliquotaIVA>22.00</AliquotaIVA>
+				<AltriDatiGestionali>
+					<TipoDato>AswTRiga</TipoDato>
+					<RiferimentoTesto>Descrittivo #DE#</RiferimentoTesto>
+				</AltriDatiGestionali>
+			</DettaglioLinee>
+			<DettaglioLinee>
+				<NumeroLinea>3</NumeroLinea>
+				<Descrizione>Riga ausiliaria contenente informazioni tecniche e aggiuntive del documento</Descrizione>
+				<PrezzoUnitario>0.00</PrezzoUnitario>
+				<PrezzoTotale>0.00</PrezzoTotale>
+				<AliquotaIVA>22.00</AliquotaIVA>
+				<AltriDatiGestionali>
+					<TipoDato>AswRelStd</TipoDato>
+					<RiferimentoTesto>Versione #Asw0105#</RiferimentoTesto>
+				</AltriDatiGestionali>
+				<AltriDatiGestionali>
+					<TipoDato>AswTRiga</TipoDato>
+					<RiferimentoTesto>Informazioni documento #ID#</RiferimentoTesto>
+				</AltriDatiGestionali>
+				<AltriDatiGestionali>
+					<TipoDato>AswDestB2B</TipoDato>
+					<RiferimentoTesto>Recipient #T04ZHR3#</RiferimentoTesto>
+				</AltriDatiGestionali>
+				<AltriDatiGestionali>
+					<TipoDato>AswTipoDoc</TipoDato>
+					<RiferimentoTesto>Fattura #TPD01#</RiferimentoTesto>
+				</AltriDatiGestionali>
+				<AltriDatiGestionali>
+					<TipoDato>AswCarDoc</TipoDato>
+					<RiferimentoTesto>Fattura da ordine #CD04#</RiferimentoTesto>
+				</AltriDatiGestionali>
+				<AltriDatiGestionali>
+					<TipoDato>AswCarDoc</TipoDato>
+					<RiferimentoTesto>Vendita Merce/Beni #CD07#</RiferimentoTesto>
+				</AltriDatiGestionali>
+				<AltriDatiGestionali>
+					<TipoDato>AswTipoPag</TipoDato>
+					<RiferimentoTesto>Bonifico bancario #TP06#</RiferimentoTesto>
+					<RiferimentoNumero>1.00</RiferimentoNumero>
+				</AltriDatiGestionali>
+			</DettaglioLinee>
+			<DatiRiepilogo>
+				<AliquotaIVA>22.00</AliquotaIVA>
+				<ImponibileImporto>4998.00</ImponibileImporto>
+				<Imposta>1099.56</Imposta>
+				<EsigibilitaIVA>I</EsigibilitaIVA>
+				<RiferimentoNormativo>IVA 22%</RiferimentoNormativo>
+			</DatiRiepilogo>
+		</DatiBeniServizi>
+		<DatiPagamento>
+			<CondizioniPagamento>TP02</CondizioniPagamento>
+			<DettaglioPagamento>
+				<ModalitaPagamento>MP05</ModalitaPagamento>
+				<DataScadenzaPagamento>2021-08-31</DataScadenzaPagamento>
+				<ImportoPagamento>6097.56</ImportoPagamento>
+				<IstitutoFinanziario>Banca del Fucino C/Anticipi</IstitutoFinanziario>
+				<IBAN>IT62T0312403201000000007291</IBAN>
+				<ABI>03124</ABI>
+				<CAB>03201</CAB>
+			</DettaglioPagamento>
+		</DatiPagamento>
+	</FatturaElettronicaBody>
+</p:FatturaElettronica>

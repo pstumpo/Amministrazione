@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><ns3:FatturaElettronica xmlns:ns3="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" versione="FPR12">
+    <FatturaElettronicaHeader>
+        <DatiTrasmissione>
+            <IdTrasmittente>
+                <IdPaese>IT</IdPaese>
+                <IdCodice>01641790702</IdCodice>
+            </IdTrasmittente>
+            <ProgressivoInvio>0000183ri0</ProgressivoInvio>
+            <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+            <CodiceDestinatario>T04ZHR3</CodiceDestinatario>
+            <ContattiTrasmittente>
+                <Telefono>0874-60561</Telefono>
+            </ContattiTrasmittente>
+        </DatiTrasmissione>
+        <CedentePrestatore>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>15487361006</IdCodice>
+                </IdFiscaleIVA>
+                <CodiceFiscale>15487361006</CodiceFiscale>
+                <Anagrafica>
+                    <Denominazione>4LINK - S.R.L.</Denominazione>
+                </Anagrafica>
+                <RegimeFiscale>RF01</RegimeFiscale>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>Viale Giorgio Ribotta, 11</Indirizzo>
+                <CAP>00144</CAP>
+                <Comune>Roma</Comune>
+                <Provincia>RM</Provincia>
+                <Nazione>IT</Nazione>
+            </Sede>
+        </CedentePrestatore>
+        <CessionarioCommittente>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>03157620133</IdCodice>
+                </IdFiscaleIVA>
+                <Anagrafica>
+                    <Denominazione>S2E SPRINT SRL</Denominazione>
+                </Anagrafica>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>VIA PALMANOVA, 67</Indirizzo>
+                <CAP>20132</CAP>
+                <Comune>Milano</Comune>
+                <Provincia>MI</Provincia>
+                <Nazione>IT</Nazione>
+            </Sede>
+        </CessionarioCommittente>
+        <TerzoIntermediarioOSoggettoEmittente>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>01641790702</IdCodice>
+                </IdFiscaleIVA>
+                <CodiceFiscale>01641790702</CodiceFiscale>
+                <Anagrafica>
+                    <Denominazione>TEAMSYSTEM SERVICE SRL</Denominazione>
+                </Anagrafica>
+            </DatiAnagrafici>
+        </TerzoIntermediarioOSoggettoEmittente>
+        <SoggettoEmittente>TZ</SoggettoEmittente>
+    </FatturaElettronicaHeader>
+    <FatturaElettronicaBody>
+        <DatiGenerali>
+            <DatiGeneraliDocumento>
+                <TipoDocumento>TD01</TipoDocumento>
+                <Divisa>EUR</Divisa>
+                <Data>2021-04-30</Data>
+                <Numero>55</Numero>
+                <ImportoTotaleDocumento>2549.80</ImportoTotaleDocumento>
+            </DatiGeneraliDocumento>
+        </DatiGenerali>
+        <DatiBeniServizi>
+            <DettaglioLinee>
+                <NumeroLinea>1</NumeroLinea>
+                <Descrizione>HELP DESK // VS ORDINE 21OA-000040</Descrizione>
+                <Quantita>11.00</Quantita>
+                <PrezzoUnitario>190.00</PrezzoUnitario>
+                <PrezzoTotale>2090.00</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DatiRiepilogo>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <ImponibileImporto>2090.00</ImponibileImporto>
+                <Imposta>459.80</Imposta>
+            </DatiRiepilogo>
+        </DatiBeniServizi>
+        <DatiPagamento>
+            <CondizioniPagamento>TP02</CondizioniPagamento>
+            <DettaglioPagamento>
+                <Beneficiario>4LINK SRL</Beneficiario>
+                <ModalitaPagamento>MP05</ModalitaPagamento>
+                <DataScadenzaPagamento>2021-07-31</DataScadenzaPagamento>
+                <ImportoPagamento>2549.80</ImportoPagamento>
+                <IstitutoFinanziario>INTESA SAN PAOLO</IstitutoFinanziario>
+                <IBAN>IT75O0306905245100000000963</IBAN>
+            </DettaglioPagamento>
+        </DatiPagamento>
+    </FatturaElettronicaBody>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-f1c008ab2964bacb0ed41829ecb08a8c"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2002/06/xmldsig-filter2"><dsig-xpath:XPath xmlns:dsig-xpath="http://www.w3.org/2002/06/xmldsig-filter2" Filter="subtract">/descendant::ds:Signature</dsig-xpath:XPath></ds:Transform><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>zsd8FFy5Gw16Zz3znnwyJOw7jgTFflw/+hFvyRroH7c=</ds:DigestValue></ds:Reference><ds:Reference URI="#keyinfo-id-f1c008ab2964bacb0ed41829ecb08a8c"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>yKRJoxoj71KPkhRcWwud007PkORUJif2Yal2wURwyuE=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-f1c008ab2964bacb0ed41829ecb08a8c"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>ixoiXmF0dqGe51TG25dEbwfSfvNZoLdXsEgidnaw3vc=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-f1c008ab2964bacb0ed41829ecb08a8c">T2a55DNpeLW4KEBgNh6DWNKgPg7nsqbKttfLM+A65cE9k9cwI72sT+y+hhvRPFop5XbTzx4hCESz2W3XzVP7a/wzpNkaMcgygIKm1P4AU11G418eMmWM8yHYPVNCBbshLbqbCgrbSckvQUlwKMPxTVlgtDfd4YJclZTNaE3Op/HbrDOcESAEw8Q8bhXBapenqaVZBjIuImh8CV6CZ49GMEut6Y1Vtihz4J51IQOjPOnuvkQT7RYd6v/TcDPV+Xj9V5/Xt6VpcvwMR/ufeK6LX2cH2pq+apLOZEkpYmsVFIX+HAkI6L383XR7j9bcyl6syUr2hJGN6ut3EKFezkamvw==</ds:SignatureValue><ds:KeyInfo Id="keyinfo-id-f1c008ab2964bacb0ed41829ecb08a8c"><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-f1c008ab2964bacb0ed41829ecb08a8c"><xades:SignedProperties Id="xades-id-f1c008ab2964bacb0ed41829ecb08a8c"><xades:SignedSignatureProperties><xades:SigningTime>2021-05-06T13:27:15Z</xades:SigningTime><xades:SigningCertificateV2><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>Yp5L3w4leUw3QWd5L2BkeYc8X5ckMe9LRH+CvtmUjks=</ds:DigestValue></xades:CertDigest><xades:IssuerSerialV2>MIGOMIGBpH8wfTELMAkGA1UEBhMCSVQxJDAiBgNVBAoMG05hbWlyaWFsIFMucC5BLi8wMjA0NjU3MDQyNjEgMB4GA1UECwwXQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkxJjAkBgNVBAMMHU5hbWlyaWFsIENBIEZpcm1hIFF1YWxpZmljYXRhAggUExWgsMqAJw==</xades:IssuerSerialV2></xades:Cert></xades:SigningCertificateV2></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#null"><xades:MimeType>application/octet-stream</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></ns3:FatturaElettronica>

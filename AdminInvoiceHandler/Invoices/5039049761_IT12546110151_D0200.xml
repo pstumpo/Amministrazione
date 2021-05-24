@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:FatturaElettronica versione="FPR12" xmlns:ns2="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+ <FatturaElettronicaHeader>
+  <DatiTrasmissione>
+   <IdTrasmittente>
+    <IdPaese>IT</IdPaese>
+    <IdCodice>12546110151</IdCodice>
+   </IdTrasmittente>
+   <ProgressivoInvio>D0200</ProgressivoInvio>
+   <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+   <CodiceDestinatario>T04ZHR3</CodiceDestinatario>
+   
+  </DatiTrasmissione>
+  <CedentePrestatore>
+   <DatiAnagrafici>
+    <IdFiscaleIVA>
+     <IdPaese>IT</IdPaese>
+     <IdCodice>12546110151</IdCodice>
+    </IdFiscaleIVA>
+    <CodiceFiscale>12546110151</CodiceFiscale>
+    <Anagrafica>
+     <Denominazione>F2 Informatica Srl</Denominazione>
+    </Anagrafica>
+    <RegimeFiscale>RF01</RegimeFiscale>
+   </DatiAnagrafici>
+   <Sede>
+    <Indirizzo>Via Luigi Settembrini</Indirizzo>
+    <NumeroCivico>35</NumeroCivico>
+    <CAP>20124</CAP>
+    <Comune>Milano</Comune>
+    <Provincia>MI</Provincia>
+    <Nazione>IT</Nazione>
+   </Sede>
+  </CedentePrestatore>
+  <CessionarioCommittente>
+   <DatiAnagrafici>
+    <IdFiscaleIVA>
+     <IdPaese>IT</IdPaese>
+     <IdCodice>03157620133</IdCodice>
+    </IdFiscaleIVA>
+     
+    <Anagrafica>
+     <Denominazione>S2E Sprint Srl</Denominazione>
+    </Anagrafica>
+   </DatiAnagrafici>
+   <Sede>
+    <Indirizzo>Via Palmanova</Indirizzo>
+    <NumeroCivico>67</NumeroCivico>
+    <CAP>20132</CAP>
+    <Comune>Milano</Comune>
+    <Provincia>MI</Provincia>
+    <Nazione>IT</Nazione>
+   </Sede>
+  </CessionarioCommittente>
+ </FatturaElettronicaHeader>
+ <FatturaElettronicaBody>
+  <DatiGenerali>
+   <DatiGeneraliDocumento>
+    <TipoDocumento>TD01</TipoDocumento>
+    <Divisa>EUR</Divisa>
+    <Data>2021-04-30</Data>
+    <Numero>200</Numero>
+    <ImportoTotaleDocumento>5856.00</ImportoTotaleDocumento>
+    <Causale>20-OA0000248</Causale>
+   </DatiGeneraliDocumento>
+   <DatiOrdineAcquisto>
+<IdDocumento>20-OA000248</IdDocumento>
+        
+    
+   </DatiOrdineAcquisto>
+   
+   <DatiConvenzione><IdDocumento>20-OA000248</IdDocumento></DatiConvenzione>
+  </DatiGenerali>
+  <DatiBeniServizi>   <DettaglioLinee>
+    <NumeroLinea>1</NumeroLinea>
+    <Descrizione>Troisi</Descrizione>
+    <Quantita>20.0000</Quantita>
+    <DataInizioPeriodo>2021-04-01</DataInizioPeriodo>
+    <DataFinePeriodo>2021-04-30</DataFinePeriodo>
+    <PrezzoUnitario>240.00</PrezzoUnitario>
+    <PrezzoTotale>4800.00</PrezzoTotale>
+    <AliquotaIVA>22.00</AliquotaIVA>
+    
+    
+   </DettaglioLinee>   <DatiRiepilogo>
+    <AliquotaIVA>22.00</AliquotaIVA>
+    
+    <ImponibileImporto>4800.00</ImponibileImporto>
+    <Imposta>1056.00</Imposta>
+    
+    
+   </DatiRiepilogo>
+  </DatiBeniServizi>
+  <DatiPagamento>
+   <CondizioniPagamento>TP02</CondizioniPagamento>
+   <DettaglioPagamento>
+    <ModalitaPagamento>MP05</ModalitaPagamento>
+    <GiorniTerminiPagamento>60</GiorniTerminiPagamento>
+   <ImportoPagamento>5856.00</ImportoPagamento>
+    <IstitutoFinanziario>Credito Valtellinese - Agenzia n. 12, Via Bianca di Savoia 19, 20122 Milano (MI)</IstitutoFinanziario>
+    <IBAN>IT92O0521601617000000098827</IBAN>
+   </DettaglioPagamento>
+  </DatiPagamento>
+ </FatturaElettronicaBody>
+</ns2:FatturaElettronica>

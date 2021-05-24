@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="fatturaordinaria_v1.2.1.xsl" ?>
+<p:FatturaElettronica xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" versione="FPR12">
+	<FatturaElettronicaHeader>
+		<DatiTrasmissione>
+			<IdTrasmittente>
+				<IdPaese>IT</IdPaese>
+				<IdCodice>08245660017</IdCodice>
+			</IdTrasmittente>
+			<ProgressivoInvio>0000003</ProgressivoInvio>
+			<FormatoTrasmissione>FPR12</FormatoTrasmissione>
+			<CodiceDestinatario>T04ZHR3</CodiceDestinatario>
+		</DatiTrasmissione>
+		<CedentePrestatore>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>08629270151</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>08629270151</CodiceFiscale>
+				<Anagrafica>
+					<Denominazione>SIXTEMA SRL</Denominazione>
+				</Anagrafica>
+				<RegimeFiscale>RF01</RegimeFiscale>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>VIA NOVARA 13</Indirizzo>
+				<CAP>20025</CAP>
+				<Comune>LEGNANO</Comune>
+				<Provincia>MI</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+			<IscrizioneREA>
+				<Ufficio>MI</Ufficio>
+				<NumeroREA>1241506</NumeroREA>
+				<CapitaleSociale>10200.00</CapitaleSociale>
+				<SocioUnico>SM</SocioUnico>
+				<StatoLiquidazione>LN</StatoLiquidazione>
+			</IscrizioneREA>
+			<Contatti>
+				<Email>sixtema@tin.it</Email>
+			</Contatti>
+		</CedentePrestatore>
+		<CessionarioCommittente>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>03157620133</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>03157620133</CodiceFiscale>
+				<Anagrafica>
+					<Denominazione>S2E  Srl</Denominazione>
+				</Anagrafica>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>VIA ROSSO DI SAN SECONDO 1/3</Indirizzo>
+				<CAP>20134</CAP>
+				<Comune>MILANO</Comune>
+				<Provincia>MI</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+		</CessionarioCommittente>
+	</FatturaElettronicaHeader>
+	<FatturaElettronicaBody>
+		<DatiGenerali>
+			<DatiGeneraliDocumento>
+				<TipoDocumento>TD01</TipoDocumento>
+				<Divisa>EUR</Divisa>
+				<Data>2021-04-30</Data>
+				<Numero>99/001</Numero>
+				<ImportoTotaleDocumento>4355.40</ImportoTotaleDocumento>
+				<Causale>VS.ORD. 20-OA000210 DEL 30/11</Causale>
+			</DatiGeneraliDocumento>
+		</DatiGenerali>
+		<DatiBeniServizi>
+			<DettaglioLinee>
+				<NumeroLinea>1</NumeroLinea>
+				<Descrizione>A90 CONSULENZA
+ Per attività di consulenza EDP, svolta
+ per Vs. conto nel mese di Aprile 21
+ da Bacchiega Fabio</Descrizione>
+				<Quantita>21.00000000</Quantita>
+				<UnitaMisura>GG</UnitaMisura>
+				<PrezzoUnitario>170.00000000</PrezzoUnitario>
+				<PrezzoTotale>3570.00000000</PrezzoTotale>
+				<AliquotaIVA>22.00</AliquotaIVA>
+			</DettaglioLinee>
+			<DatiRiepilogo>
+				<AliquotaIVA>22.00</AliquotaIVA>
+				<ImponibileImporto>3570.00</ImponibileImporto>
+				<Imposta>785.40</Imposta>
+				<EsigibilitaIVA>I</EsigibilitaIVA>
+			</DatiRiepilogo>
+		</DatiBeniServizi>
+		<DatiPagamento>
+			<CondizioniPagamento>TP02</CondizioniPagamento>
+			<DettaglioPagamento>
+				<ModalitaPagamento>MP05</ModalitaPagamento>
+				<DataScadenzaPagamento>2021-07-31</DataScadenzaPagamento>
+				<ImportoPagamento>4355.40</ImportoPagamento>
+				<IBAN>IT34W0306933190000003865148</IBAN>
+			</DettaglioPagamento>
+		</DatiPagamento>
+	</FatturaElettronicaBody>
+</p:FatturaElettronica>

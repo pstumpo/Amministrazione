@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><ns3:FatturaElettronica xmlns:ns3="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" versione="FPR12">
+    <FatturaElettronicaHeader>
+        <DatiTrasmissione>
+            <IdTrasmittente>
+                <IdPaese>IT</IdPaese>
+                <IdCodice>01641790702</IdCodice>
+            </IdTrasmittente>
+            <ProgressivoInvio>000017loas</ProgressivoInvio>
+            <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+            <CodiceDestinatario>T04ZHR3</CodiceDestinatario>
+            <ContattiTrasmittente>
+                <Telefono>0874-60561</Telefono>
+            </ContattiTrasmittente>
+        </DatiTrasmissione>
+        <CedentePrestatore>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>04371900160</IdCodice>
+                </IdFiscaleIVA>
+                <CodiceFiscale>MFFWTR74T13H509R</CodiceFiscale>
+                <Anagrafica>
+                    <Denominazione>Maffi Walter</Denominazione>
+                </Anagrafica>
+                <RegimeFiscale>RF19</RegimeFiscale>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>Via Roma 67</Indirizzo>
+                <CAP>24040</CAP>
+                <Comune>Pagazzano</Comune>
+                <Provincia>BG</Provincia>
+                <Nazione>IT</Nazione>
+            </Sede>
+        </CedentePrestatore>
+        <CessionarioCommittente>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>03157620133</IdCodice>
+                </IdFiscaleIVA>
+                <CodiceFiscale>03157620133</CodiceFiscale>
+                <Anagrafica>
+                    <Denominazione>S2E Sprint S.r.l.</Denominazione>
+                </Anagrafica>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>via Palmanova n. 67</Indirizzo>
+                <CAP>20132</CAP>
+                <Comune>Milano</Comune>
+                <Provincia>MI</Provincia>
+                <Nazione>IT</Nazione>
+            </Sede>
+        </CessionarioCommittente>
+        <TerzoIntermediarioOSoggettoEmittente>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>01641790702</IdCodice>
+                </IdFiscaleIVA>
+                <CodiceFiscale>01641790702</CodiceFiscale>
+                <Anagrafica>
+                    <Denominazione>TEAMSYSTEM SERVICE SRL</Denominazione>
+                </Anagrafica>
+            </DatiAnagrafici>
+        </TerzoIntermediarioOSoggettoEmittente>
+        <SoggettoEmittente>TZ</SoggettoEmittente>
+    </FatturaElettronicaHeader>
+    <FatturaElettronicaBody>
+        <DatiGenerali>
+            <DatiGeneraliDocumento>
+                <TipoDocumento>TD01</TipoDocumento>
+                <Divisa>EUR</Divisa>
+                <Data>2021-04-19</Data>
+                <Numero>14</Numero>
+                <ImportoTotaleDocumento>4282.20</ImportoTotaleDocumento>
+                <Causale>Consulenza N. 21- OA000064</Causale>
+            </DatiGeneraliDocumento>
+        </DatiGenerali>
+        <DatiBeniServizi>
+            <DettaglioLinee>
+                <NumeroLinea>1</NumeroLinea>
+                <Descrizione>Consulenza N. 21- OA000064 // Attività sviluppo .net</Descrizione>
+                <Quantita>13.00</Quantita>
+                <PrezzoUnitario>270.00</PrezzoUnitario>
+                <PrezzoTotale>3510.00</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DatiRiepilogo>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <ImponibileImporto>3510.00</ImponibileImporto>
+                <Imposta>772.20</Imposta>
+                <EsigibilitaIVA>I</EsigibilitaIVA>
+            </DatiRiepilogo>
+        </DatiBeniServizi>
+        <DatiPagamento>
+            <CondizioniPagamento>TP02</CondizioniPagamento>
+            <DettaglioPagamento>
+                <Beneficiario>Walter Maffi</Beneficiario>
+                <ModalitaPagamento>MP05</ModalitaPagamento>
+                <DataScadenzaPagamento>2021-04-30</DataScadenzaPagamento>
+                <ImportoPagamento>4282.20</ImportoPagamento>
+            </DettaglioPagamento>
+        </DatiPagamento>
+    </FatturaElettronicaBody>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-dc3e6c78dfd58f1c055dd63d3e5736d6"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2002/06/xmldsig-filter2"><dsig-xpath:XPath xmlns:dsig-xpath="http://www.w3.org/2002/06/xmldsig-filter2" Filter="subtract">/descendant::ds:Signature</dsig-xpath:XPath></ds:Transform><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>wgnNCKYawTt9VXXMa731iPnelTUsDGjaj2eKYZ8CQzU=</ds:DigestValue></ds:Reference><ds:Reference URI="#keyinfo-id-dc3e6c78dfd58f1c055dd63d3e5736d6"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>jvuP+bFxv4mNWGhl+INPdy1EPVAubM0lER0dd85dZVc=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-dc3e6c78dfd58f1c055dd63d3e5736d6"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>qa5hkYy/z2AJe/2PXfECtxjuEvkn/UOgegSFIQX5frE=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-dc3e6c78dfd58f1c055dd63d3e5736d6">UG/7EauwT1OHEecCmK5XOOqduiX0BOoCNmerjY6y1jCYwobhQyV60EBCzSaGaKroVqKDKRKTuBDvo2GJEzsqLMBouwUeNeG2gc70h+ehRFZibX53hlPi+RrCozBfjzOs9xiWDK8w9OJios6efQnxPasdlxMeUHvemCE8lmoeE1RTn3KpLk87xWf18kNdraPTorH/64AU0Pxt+nSs1dRrMhOU4gfWSzpbMtE5wh5/V9BiWXKHw14cAmNZpQzl4cNlPtRpreSUzFn1hHFCFUGzcxXOsPvDeVGN1AmF0vzq2DBPVd+/JsiedWfF4EEu34B9snf8obIKx2Q9Nb5vaGXi+g==</ds:SignatureValue><ds:KeyInfo Id="keyinfo-id-dc3e6c78dfd58f1c055dd63d3e5736d6"><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-dc3e6c78dfd58f1c055dd63d3e5736d6"><xades:SignedProperties Id="xades-id-dc3e6c78dfd58f1c055dd63d3e5736d6"><xades:SignedSignatureProperties><xades:SigningTime>2021-04-30T08:15:59Z</xades:SigningTime><xades:SigningCertificateV2><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>Yp5L3w4leUw3QWd5L2BkeYc8X5ckMe9LRH+CvtmUjks=</ds:DigestValue></xades:CertDigest><xades:IssuerSerialV2>MIGOMIGBpH8wfTELMAkGA1UEBhMCSVQxJDAiBgNVBAoMG05hbWlyaWFsIFMucC5BLi8wMjA0NjU3MDQyNjEgMB4GA1UECwwXQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkxJjAkBgNVBAMMHU5hbWlyaWFsIENBIEZpcm1hIFF1YWxpZmljYXRhAggUExWgsMqAJw==</xades:IssuerSerialV2></xades:Cert></xades:SigningCertificateV2></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#null"><xades:MimeType>application/octet-stream</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></ns3:FatturaElettronica>
