@@ -1,2 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<p:FatturaElettronica xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" versione="FPR12"><FatturaElettronicaHeader><DatiTrasmissione><IdTrasmittente><IdPaese>IT</IdPaese><IdCodice>01589730629</IdCodice></IdTrasmittente><ProgressivoInvio>0000000000</ProgressivoInvio><FormatoTrasmissione>FPR12</FormatoTrasmissione><CodiceDestinatario>T04ZHR3</CodiceDestinatario><ContattiTrasmittente><Telefono>0824317019</Telefono><Email>freeinvoice@cloudfinance.it</Email></ContattiTrasmittente><PECDestinatario>s2e@pec.s2e-pec.com</PECDestinatario></DatiTrasmissione><CedentePrestatore><DatiAnagrafici><IdFiscaleIVA><IdPaese>IT</IdPaese><IdCodice>08707150960</IdCodice></IdFiscaleIVA><CodiceFiscale>LNNRNT67D30I690D</CodiceFiscale><Anagrafica><Denominazione>Sig renato lanni</Denominazione></Anagrafica><RegimeFiscale>RF01</RegimeFiscale></DatiAnagrafici><Sede><Indirizzo>via cardinal ferrari</Indirizzo><NumeroCivico>55</NumeroCivico><CAP>20099</CAP><Comune>sesto san giovanni</Comune><Provincia>MI</Provincia><Nazione>IT</Nazione></Sede><Contatti><Telefono>3280013079</Telefono></Contatti></CedentePrestatore><CessionarioCommittente><DatiAnagrafici><IdFiscaleIVA><IdPaese>IT</IdPaese><IdCodice>03157620133</IdCodice></IdFiscaleIVA><CodiceFiscale>03157620133</CodiceFiscale><Anagrafica><Denominazione>S2E SPRINT S.r.L</Denominazione></Anagrafica></DatiAnagrafici><Sede><Indirizzo>VIA PALMANOVA</Indirizzo><NumeroCivico>67</NumeroCivico><CAP>20132</CAP><Comune>MILANO</Comune><Provincia>MI</Provincia><Nazione>IT</Nazione></Sede></CessionarioCommittente><TerzoIntermediarioOSoggettoEmittente><DatiAnagrafici><IdFiscaleIVA><IdPaese>IT</IdPaese><IdCodice>01589730629</IdCodice></IdFiscaleIVA><CodiceFiscale>01589730629</CodiceFiscale><Anagrafica><Denominazione>Cloud Finance S.r.l.</Denominazione></Anagrafica></DatiAnagrafici></TerzoIntermediarioOSoggettoEmittente><SoggettoEmittente>TZ</SoggettoEmittente></FatturaElettronicaHeader><FatturaElettronicaBody><DatiGenerali><DatiGeneraliDocumento><TipoDocumento>TD01</TipoDocumento><Divisa>EUR</Divisa><Data>2021-04-28</Data><Numero>4</Numero><DatiRitenuta><TipoRitenuta>RT01</TipoRitenuta><ImportoRitenuta>1050.00</ImportoRitenuta><AliquotaRitenuta>20.00</AliquotaRitenuta><CausalePagamento>A</CausalePagamento></DatiRitenuta><ImportoTotaleDocumento>6405.00</ImportoTotaleDocumento><Arrotondamento>0.00</Arrotondamento></DatiGeneraliDocumento></DatiGenerali><DatiBeniServizi><DettaglioLinee><NumeroLinea>1</NumeroLinea><Descrizione>Consulenza presso Vs Clienti</Descrizione><Quantita>1.00000000</Quantita><PrezzoUnitario>5250.00000000</PrezzoUnitario><PrezzoTotale>5250.00000000</PrezzoTotale><AliquotaIVA>22.00</AliquotaIVA><Ritenuta>SI</Ritenuta></DettaglioLinee><DatiRiepilogo><AliquotaIVA>22.00</AliquotaIVA><SpeseAccessorie>0.00</SpeseAccessorie><Arrotondamento>0.00000000</Arrotondamento><ImponibileImporto>5250.00</ImponibileImporto><Imposta>1155.00</Imposta><EsigibilitaIVA>I</EsigibilitaIVA></DatiRiepilogo></DatiBeniServizi><DatiPagamento><CondizioniPagamento>TP02</CondizioniPagamento><DettaglioPagamento><Beneficiario>renato lanni</Beneficiario><ModalitaPagamento>MP05</ModalitaPagamento><DataRiferimentoTerminiPagamento>2021-04-28</DataRiferimentoTerminiPagamento><GiorniTerminiPagamento>30</GiorniTerminiPagamento><DataScadenzaPagamento>2021-05-31</DataScadenzaPagamento><ImportoPagamento>5355.00</ImportoPagamento><IstitutoFinanziario>ING DIRECT</IstitutoFinanziario><IBAN>IT38D0347501605CC0010087287</IBAN><ABI>03475</ABI><CAB>01605</CAB><ScontoPagamentoAnticipato>0.00</ScontoPagamentoAnticipato><PenalitaPagamentiRitardati>0.00</PenalitaPagamentiRitardati></DettaglioPagamento></DatiPagamento></FatturaElettronicaBody></p:FatturaElettronica>
+<p:FatturaElettronica xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" versione="FPR12">
+<FatturaElettronicaHeader>
+<DatiTrasmissione>
+<IdTrasmittente>
+<IdPaese>IT</IdPaese>
+<IdCodice>01589730629</IdCodice>
+</IdTrasmittente>
+<ProgressivoInvio>0000000000</ProgressivoInvio>
+<FormatoTrasmissione>FPR12</FormatoTrasmissione>
+<CodiceDestinatario>T04ZHR3</CodiceDestinatario>
+<ContattiTrasmittente>
+<Telefono>0824317019</Telefono>
+<Email>freeinvoice@cloudfinance.it</Email>
+</ContattiTrasmittente>
+<PECDestinatario>s2e@pec.s2e-pec.com</PECDestinatario>
+</DatiTrasmissione>
+<CedentePrestatore>
+<DatiAnagrafici>
+<IdFiscaleIVA>
+<IdPaese>IT</IdPaese>
+<IdCodice>08707150960</IdCodice>
+</IdFiscaleIVA>
+<CodiceFiscale>LNNRNT67D30I690D</CodiceFiscale>
+<Anagrafica>
+<Denominazione>Sig renato lanni</Denominazione>
+</Anagrafica>
+<RegimeFiscale>RF01</RegimeFiscale>
+</DatiAnagrafici>
+<Sede>
+<Indirizzo>via cardinal ferrari</Indirizzo>
+<NumeroCivico>55</NumeroCivico>
+<CAP>20099</CAP>
+<Comune>sesto san giovanni</Comune>
+<Provincia>MI</Provincia>
+<Nazione>IT</Nazione>
+</Sede>
+<Contatti>
+<Telefono>3280013079</Telefono>
+</Contatti>
+</CedentePrestatore>
+<CessionarioCommittente>
+<DatiAnagrafici>
+<IdFiscaleIVA>
+<IdPaese>IT</IdPaese>
+<IdCodice>03157620133</IdCodice>
+</IdFiscaleIVA>
+<CodiceFiscale>03157620133</CodiceFiscale>
+<Anagrafica>
+<Denominazione>S2E SPRINT S.r.L</Denominazione>
+</Anagrafica>
+</DatiAnagrafici>
+<Sede>
+<Indirizzo>VIA PALMANOVA</Indirizzo>
+<NumeroCivico>67</NumeroCivico>
+<CAP>20132</CAP>
+<Comune>MILANO</Comune>
+<Provincia>MI</Provincia>
+<Nazione>IT</Nazione>
+</Sede>
+</CessionarioCommittente>
+<TerzoIntermediarioOSoggettoEmittente>
+<DatiAnagrafici>
+<IdFiscaleIVA><IdPaese>IT</IdPaese>
+<IdCodice>01589730629</IdCodice>
+</IdFiscaleIVA>
+<CodiceFiscale>01589730629</CodiceFiscale>
+<Anagrafica>
+<Denominazione>Cloud Finance S.r.l.</Denominazione>
+</Anagrafica>
+</DatiAnagrafici>
+</TerzoIntermediarioOSoggettoEmittente>
+<SoggettoEmittente>TZ</SoggettoEmittente>
+</FatturaElettronicaHeader>
+<FatturaElettronicaBody>
+<DatiGenerali>
+<DatiGeneraliDocumento>
+<TipoDocumento>TD01</TipoDocumento>
+<Divisa>EUR</Divisa>
+<Data>2021-04-28</Data>
+<Numero>4</Numero>
+<DatiRitenuta>
+<TipoRitenuta>RT01</TipoRitenuta>
+<ImportoRitenuta>1050.00</ImportoRitenuta>
+<AliquotaRitenuta>20.00</AliquotaRitenuta>
+<CausalePagamento>A</CausalePagamento>
+</DatiRitenuta>
+<ImportoTotaleDocumento>6405.00</ImportoTotaleDocumento>
+<Arrotondamento>0.00</Arrotondamento>
+</DatiGeneraliDocumento>
+</DatiGenerali>
+<DatiBeniServizi>
+<DettaglioLinee>
+<NumeroLinea>1</NumeroLinea>
+<Descrizione>Consulenza presso Vs Clienti</Descrizione>
+<Quantita>1.00000000</Quantita>
+<PrezzoUnitario>5250.00000000</PrezzoUnitario>
+<PrezzoTotale>5250.00000000</PrezzoTotale>
+<AliquotaIVA>22.00</AliquotaIVA>
+<Ritenuta>SI</Ritenuta>
+</DettaglioLinee>
+<DatiRiepilogo>
+<AliquotaIVA>22.00</AliquotaIVA>
+<SpeseAccessorie>0.00</SpeseAccessorie>
+<Arrotondamento>0.00000000</Arrotondamento>
+<ImponibileImporto>5250.00</ImponibileImporto>
+<Imposta>1155.00</Imposta>
+<EsigibilitaIVA>I</EsigibilitaIVA>
+</DatiRiepilogo>
+</DatiBeniServizi>
+<DatiPagamento>
+<CondizioniPagamento>TP02</CondizioniPagamento>
+<DettaglioPagamento>
+<Beneficiario>renato lanni</Beneficiario>
+<ModalitaPagamento>MP05</ModalitaPagamento>
+<DataRiferimentoTerminiPagamento>2021-04-28</DataRiferimentoTerminiPagamento>
+<GiorniTerminiPagamento>30</GiorniTerminiPagamento>
+<DataScadenzaPagamento>2021-05-31</DataScadenzaPagamento>
+<ImportoPagamento>5355.00</ImportoPagamento>
+<IstitutoFinanziario>ING DIRECT</IstitutoFinanziario>
+<IBAN>IT38D0347501605CC0010087287</IBAN>
+<ABI>03475</ABI><CAB>01605</CAB>
+<ScontoPagamentoAnticipato>0.00</ScontoPagamentoAnticipato>
+<PenalitaPagamentiRitardati>0.00</PenalitaPagamentiRitardati>
+</DettaglioPagamento>
+</DatiPagamento>
+</FatturaElettronicaBody>
+</p:FatturaElettronica>
