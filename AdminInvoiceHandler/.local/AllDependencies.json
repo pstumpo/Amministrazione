@@ -4016,15 +4016,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\agostino.tenuta\\.nuget\\packages\\": {}
+    "C:\\Users\\paolo.stumpo\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "AdminInvoiceHandler",
       "projectName": "AdminInvoiceHandler",
-      "projectPath": "C:\\Users\\agostino.tenuta\\Documents\\UiPath\\AdminInvoiceHandler\\.local",
-      "packagesPath": "C:\\Users\\agostino.tenuta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\agostino.tenuta\\Documents\\UiPath\\AdminInvoiceHandler\\.local"
+      "projectPath": "C:\\Users\\paolo.stumpo\\Desktop\\Amministrazione\\AdminInvoiceHandler\\.local",
+      "packagesPath": "C:\\Users\\paolo.stumpo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\paolo.stumpo\\Desktop\\Amministrazione\\AdminInvoiceHandler\\.local"
     },
     "frameworks": {
       "net461": {
@@ -4045,8 +4045,43 @@
             "version": "[21.4.3, 21.4.3]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\agostino.tenuta\\AppData\\Local\\UiPath\\app-21.4.3\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\paolo.stumpo\\AppData\\Local\\UiPath\\app-21.4.3\\runtime.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "System.IO.Pipelines 4.7.1 depends on System.Buffers (>= 4.5.0) but System.Buffers 4.5.0 was not found. An approximate best match of System.Buffers 4.5.1 was resolved.",
+      "libraryId": "System.Buffers",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1",
+        ".NETFramework,Version=v4.6.1/win7-x86"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Microsoft.Extensions.Primitives 3.1.6 depends on System.Memory (>= 4.5.2) but System.Memory 4.5.2 was not found. An approximate best match of System.Memory 4.5.4 was resolved.",
+      "libraryId": "System.Memory",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1",
+        ".NETFramework,Version=v4.6.1/win7-x86"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "System.IO.Pipelines 4.7.1 depends on System.Memory (>= 4.5.3) but System.Memory 4.5.3 was not found. An approximate best match of System.Memory 4.5.4 was resolved.",
+      "libraryId": "System.Memory",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1",
+        ".NETFramework,Version=v4.6.1/win7-x86"
+      ]
+    }
+  ]
 }
